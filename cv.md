@@ -31,3 +31,8 @@ I want to gain knowledge and skills that are enough to work in the company.
 * Course "Web developer from scratch" from [BEONMAX](https://beonmax.com/certificates/587d8d82ba64876b100f..)
 * JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
+### Languages:
+* Belorussian – native speaker
+* Russian – B2
+* English – A2
