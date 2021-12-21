@@ -13,3 +13,11 @@ I am interested in web development because this occupation provides endless oppo
 in addition, there is a huge number of free and high-quality resources for self-education and a large community of developers.
 
 I want to gain knowledge and skills that are enough to work in the company.
+
+### Skills:
+* HTML5(Semantics)
+* CSS3(SASS/SCSS - preproceassors, BEM - methodology, responsive, adaptive),
+* JavaScript Basics,
+* Git, GitHub,
+* VS Code, SublimeText,
+* AdobePhotoshop, Avacode, Figma.
