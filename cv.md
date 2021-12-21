@@ -21,3 +21,13 @@ I want to gain knowledge and skills that are enough to work in the company.
 * Git, GitHub,
 * VS Code, SublimeText,
 * AdobePhotoshop, Avacode, Figma.
+
+### Education:
+* Oshmyany Agricultural and Economic College (2019-2023)
+* Information technology software (Technician-programmer)
+
+#### Courses:
+* Intensives from GLO Academy
+* Course "Web developer from scratch" from [BEONMAX](https://beonmax.com/certificates/587d8d82ba64876b100f..)
+* JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
