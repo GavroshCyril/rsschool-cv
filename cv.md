@@ -5,3 +5,11 @@
 * E-mail: gavrosh.cyril@gmail.com
 * Telegram: [@cyrilGV](https://t.me/cyrilGV)
 * GitHub: [@GavroshCyril](https://github.com/GavroshCyril)
+
+### About Me:
+Hi, my name is Cyril! I enjoy learning more and more new information related to web development while sitting at my computer and having a cup of coffee. My strengths are problem solving and fast learning.
+
+I am interested in web development because this occupation provides endless opportunities for professional growth,
+in addition, there is a huge number of free and high-quality resources for self-education and a large community of developers.
+
+I want to gain knowledge and skills that are enough to work in the company.
