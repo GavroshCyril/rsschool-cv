@@ -30,14 +30,87 @@ header{
     text-decoration: none;
     padding: 14px 10px;
     line-height: 50px;
-    color: #202026;
+    color: #2c323d;
     font-weight: 300;
     transition: all 0.4s;
     font-size: 16px;
 }
     
 .nav-link:hover{
-    background-color: #202026fa;
+    background-color: #2c323d;
     color: #FFF;
     padding: 12px 10px;
+}
+
+.left-side{
+    width: 300px;
+    color: white;
+    background-color: #2c323d;
+}
+
+.figure--left-side {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: min-content;
+    background-color: #343945;
+}
+
+.contact {
+    padding: 44px 0px 54px 0px;
+    background-color: #2c323d;
+}
+
+.left-side .section-title {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.section-title {
+    position: relative;
+    margin: 0;
+    margin-bottom: 36px;
+    padding-left: 60px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.section-title::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 36px;
+    background-color: #f2c100;
+}
+
+.contact__list {
+    list-style: none;
+    margin: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 0;
+}
+
+.contact__item {
+    margin-bottom: 25px;
+}
+
+.contact__item a{
+    transition: 0.5s;
+}
+
+.contact__item a:hover {
+    color: #f2c100;
+    cursor: pointer;
+}
+
+.contact__item a {
+    display: block;
+    color: #FFF;
+}
+
+.contact__item:last-child {
+    margin-bottom: 0;
 }
