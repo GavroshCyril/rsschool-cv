@@ -134,7 +134,7 @@ header{
 }
 
 .page-title {
-    margin: 125px 80px 125px 60px;
+    margin: 42px 82px 18px 60px;
 }
 
 .main-title {
@@ -143,10 +143,30 @@ header{
     font-size: 55px;
     line-height: 50px;
     font-weight: 600;
+    color: #2c323d;
 }
 
 .page-title p {
     font-size: 20px;
     padding: 20px 0;
     font-weight: 500;
+    color: #2c323d;
+}
+
+.about-me {
+    padding: 0;
+    margin-bottom: 54px;
+}
+
+.right-side .section-title {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #2c323d;
+}
+
+.about-me p {
+    margin: 0 0px 0 60px;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
 }
