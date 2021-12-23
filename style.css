@@ -10,11 +10,14 @@ body{
     font-family: 'Montserrat', sans-serif;
     max-width: 1140px;
     margin: 0 auto;
+    background-color: #202736;
+    box-shadow: 5px 5px 670px #fecb00b4;
 }
   
 .container {
     display: grid;
     grid-template-columns: 300px 2fr;
+    background-color: #fff;
 }
 
 header{
@@ -185,7 +188,7 @@ header{
 }
 
 .about-me p {
-    margin: 0 0px 0 60px;
+    margin: 0 60px 0 60px;
     padding: 0;
     font-size: 16px;
     line-height: 24px;
