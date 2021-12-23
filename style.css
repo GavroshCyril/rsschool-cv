@@ -179,7 +179,7 @@ header{
 
 .about-me {
     padding: 0;
-    margin-bottom: 54px;
+    margin-bottom: 95px;
 }
 
 .right-side .section-title {
@@ -200,32 +200,49 @@ header{
 }
 
 .skills__list {
-    margin: 0px 60px;
+    margin: 0 60px 0 60px;
     padding: 0;
-    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
 }
-/*  */
-/* .skills__block {
+
+.skills__item {
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+    padding-left: 67px;
     margin-bottom: 20px;
-    display: flex;
-    align-items: center;
+    color: #2c323d;
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: left center;
+    font-size: 16px;
 }
 
-.skills__text {
-    width: 110px;
-    margin-right: 15px;
-    font-weight: 600;
+.skills__html {
+    background-image: url(assets/svg/html.svg);
 }
-
-.skills-list {
-    display: flex;
-    align-items: center;
+.skills__css {
+    background-image: url(assets/svg/css.svg);
 }
-
-.skills-list__item {
-    width: 10px;
-    height: 10px;
-    background-color: #f0ae12;
-    border-radius: 50%;
-    margin-right: 5px;
-} */
+.skills__sass {
+    background-image: url(assets/svg/sass.svg);
+}
+.skills__bootstrap {
+    background-image: url(assets/svg/bootstrap.svg);
+}
+.skills__javascript {
+    background-image: url(assets/svg/javascript.svg);
+}
+.skills__github {
+    background-image: url(assets/svg/github.svg);
+}
+.skills__figma {
+    background-image: url(assets/svg/figma.svg);
+}
+.skills__git {
+    background-image: url(assets/svg/git.svg);
+}
+.skills__vscode {
+    background-image: url(assets/svg/vscode.svg);
+}
