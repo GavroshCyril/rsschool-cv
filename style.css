@@ -158,7 +158,7 @@ header{
 }
 
 .page-title {
-    margin: 42px 82px 18px 60px;
+    margin: 50px 82px 50px 60px;
 }
 
 .main-title {
@@ -179,7 +179,7 @@ header{
 
 .about-me {
     padding: 0;
-    margin-bottom: 95px;
+    margin-bottom: 55px;
 }
 
 .right-side .section-title {
@@ -250,9 +250,48 @@ header{
 .key-strengths__list{
     margin: 0px 60px;
     padding-left: 20px;
+    margin-bottom: 36px;
 }
 
 .key-strengths__item{
     padding-bottom: 10px;
 }
 
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 20px 60px 20px 60px;
+    color: white;
+    background-color: #f2c100;
+}
+
+.footer__github{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    padding-left: 40px;
+}
+
+.footer__github::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: -5px;
+    width: 40px;
+    height: 40px;
+    background-image: url(../assets/svg/github-footer.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.footer__year{
+    color: black;
+    text-align: center;
+}
+
+.footer__rsschool{
+    justify-self: end;
+    height: 32px;
+    
+}
