@@ -246,3 +246,13 @@ header{
 .skills__vscode {
     background-image: url(assets/svg/vscode.svg);
 }
+
+.key-strengths__list{
+    margin: 0px 60px;
+    padding-left: 20px;
+}
+
+.key-strengths__item{
+    padding-bottom: 10px;
+}
+
