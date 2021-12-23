@@ -133,6 +133,27 @@ header{
     list-style: none;
 }
 
+.languages__list {
+    margin: 0;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 0;
+    list-style: none;
+}
+
+.languages__item {
+    margin-bottom: 25px;
+    transition: 0.4s;
+}
+
+.languages__item:last-child {
+    margin-bottom: 0;
+}
+
+.languages__item:hover{
+    color: #f2c100;
+}
+
 .page-title {
     margin: 42px 82px 18px 60px;
 }
