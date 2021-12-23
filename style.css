@@ -170,3 +170,38 @@ header{
     line-height: 24px;
     text-align: justify;
 }
+
+.skills {
+    margin-bottom: 36px;
+}
+
+.skills__list {
+    margin: 0px 60px;
+    padding: 0;
+    padding-left: 20px;
+}
+/*  */
+/* .skills__block {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.skills__text {
+    width: 110px;
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+.skills-list {
+    display: flex;
+    align-items: center;
+}
+
+.skills-list__item {
+    width: 10px;
+    height: 10px;
+    background-color: #f0ae12;
+    border-radius: 50%;
+    margin-right: 5px;
+} */
