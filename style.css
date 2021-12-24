@@ -155,6 +155,7 @@ header{
 
 .languages__item:hover{
     color: #f2c100;
+    cursor: pointer;
 }
 
 .page-title {
@@ -257,13 +258,54 @@ header{
     padding-bottom: 10px;
 }
 
+.projects__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin: 0 60px;
+}
+
+.projects__list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.projects__item:hover .projects__image {
+    box-shadow: 0px 0px 7px 7px #2c323db3;
+}
+
+.projects__image {
+    width: 350px;
+    height: 350px;
+    height: max-content;
+    object-fit: contain;
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.367);
+    transition: all 0.4s ease 0s;
+}
+
+.projects__title {
+    margin: 0;
+    padding: 10px 0px;
+    font-weight: 400;
+    color: black;
+    transition: all 0.3s ease 0s;
+}
+
+.projects__item a{
+    text-decoration: none;
+    text-align: center;
+}
+
+
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     padding: 20px 60px 20px 60px;
     color: white;
-    background-color: #f2c100;
+    background-color: #fecb00;
 }
 
 .footer__github{
