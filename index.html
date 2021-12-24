@@ -132,6 +132,28 @@
       </ul>
     </section>
 
+     <section class="code-example" id="code-example">
+      <h2 class="section-title">Code example</h2>
+
+      <pre>
+        <code class="code">const anchors = document.querySelectorAll('a.nav-link')
+
+          for (let anchor of anchors) {
+            anchor.addEventListener('click', function (e) {
+              e.preventDefault()
+              
+              const blockID = anchor.getAttribute('href')
+              
+              document.querySelector(blockID).scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+              })
+            })
+          }</code>
+        </pre>
+
+    </section> 
+
     <section class="projects" id="projects">
       <h2 class="section-title">My projects</h2>
       <ul class="projects__list">
@@ -149,12 +171,6 @@
         </li>
       </ul>
     </section>
-
-    <!-- <section class="code-example" id="code-example">
-      <h2 class="section-title">Code example</h2>
-    </section> -->
-
-
   </div>
   </main>
 

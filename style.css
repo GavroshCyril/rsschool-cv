@@ -258,6 +258,10 @@ header{
     padding-bottom: 10px;
 }
 
+pre{
+    margin-bottom: 30px;
+}
+
 .projects__list {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -297,7 +301,6 @@ header{
     text-decoration: none;
     text-align: center;
 }
-
 
 .footer {
     display: grid;
