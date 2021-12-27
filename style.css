@@ -24,7 +24,7 @@ header{
     height: 50px;
     background-color: #fecb00;
 }
-    
+ 
 .nav-list{
     display: flex;
     flex-wrap: wrap;
@@ -204,7 +204,7 @@ header{
     margin: 0 60px 0 60px;
     padding: 0;
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-columns: auto auto auto;
 }
 
 .skills__item {
@@ -264,7 +264,7 @@ pre{
 
 .projects__list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto;
     gap: 25px;
     margin: 0 60px;
 }
@@ -322,7 +322,7 @@ pre{
     position: absolute;
     content: "";
     left: 0;
-    top: -5px;
+    top: 0;
     width: 40px;
     height: 40px;
     background-image: url(assets/svg/github-footer.svg);
@@ -340,3 +340,25 @@ pre{
     height: 32px;
     
 }
+
+@media (max-width: 1110px){
+    .section-description{
+        max-width: 650px;
+    }
+    .projects__list{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 790px){
+    .section-description{
+        max-width: 320px;
+    }
+    .skills__list{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+}
+ 
