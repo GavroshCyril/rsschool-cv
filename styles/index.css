@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;800&display=swap');
 @import url('contact.css');
+@import url('education.css');
 @import url('footer.css');
 @import url('media.css');
 
@@ -61,4 +62,16 @@ body{
   }
   .hide {
     display: none;
+  }
+
+  .title{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #FFF;
+    background-color: #1f313d;
+    margin: 0;
+    margin-bottom: 20px;
   }
