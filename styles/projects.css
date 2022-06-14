@@ -1,0 +1,71 @@
+.project-container {
+    position: relative;
+    max-width: 300px;
+  }
+
+  .projects-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: space-between;
+  }
+
+  .project {
+    display: block;
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+    transition: 0.2s;
+  }
+  
+  .project-axit{
+    background-image: url('../assets/img/axit.png');
+  }
+
+  .project-crappo{
+    background-image: url('../assets/img/crappo.png');
+  }
+
+  .project-bootcamp{
+    background-image: url('../assets/img/bootcamp.png');
+  }
+
+  .project-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  .project-description {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .project-tech {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  .click {
+    opacity: 0;
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .project-container:hover .project {
+    filter: brightness(30%);
+  }
+  .project-container:hover .click {
+    opacity: 1;
+  }

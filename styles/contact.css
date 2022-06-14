@@ -126,15 +126,11 @@ header{
   
   .nav-item{
     margin-bottom: 15px;
+    z-index: -1;
 }
 
   .nav-link {
     color: #1f313d;
     font-weight: 500;
+    z-index: 82;
 }
-
-.nav-item:hover{
-    list-style: disc;
-    cursor: pointer;
-}
-
