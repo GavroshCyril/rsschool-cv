@@ -1,0 +1,139 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #1f313d;
+}
+
+.navigation{
+    display: flex;
+}
+
+.navigation-link{
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin-right: 50px;
+    color: #FFF;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.navigation-link::after {
+    background-color: #FFF; 
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+  .navigation-link:hover:after,
+  .navigation-link:focus:after {
+    width: 100%;
+}
+
+  .contact-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contact-left{
+    margin-top: 15px;
+    display: block;
+    width: 400px;
+    height: 610px;
+    margin-right: -60px;
+    background-color: #1f313d;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-info-img{
+    width: 400px;
+    height: 390px;
+  }
+
+  .about-info-img img{
+    width: 100%;
+  }
+
+  .header-about {
+    padding: 40px;
+    color: #fff;
+  }
+
+  .header-title {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #1f313d;
+    background-color: #fff;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .header-description{
+    line-height: 1.4;
+    font-weight: 300;
+  }
+
+
+  .contact-right{
+    margin-top: 50px;
+    margin-right: 150px;
+
+  }
+
+  .contact-title{
+    display: block;
+    font-size: 75px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.contact-subtitle {
+    display: block;
+    font-weight: 900;
+    font-size: 75px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .contact-specialize {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 70px;
+  }
+
+  .nav-title {
+    font-size: 16px;
+    font-weight: 800;
+  }
+  
+  .nav-item{
+    margin-bottom: 15px;
+}
+
+  .nav-link {
+    color: #1f313d;
+    font-weight: 500;
+}
+
+.nav-item:hover{
+    list-style: disc;
+    cursor: pointer;
+}
+

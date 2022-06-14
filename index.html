@@ -4,188 +4,86 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gavrosh Cyril</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>CV Gavrosh Cyril</title>
+    <link rel="stylesheet" href="./styles/index.css" />
     <link rel="shortcut icon" href="assets/img/favicon.ico"  type="image/x-icon" />
   </head>
   <body>
-    <header>
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="#about-me" class="nav-link">About me</a>
-          </li>
-          <li class="nav-item">
-            <a href="#skills" class="nav-link">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a href="#strengths" class="nav-link">Strengths</a>
-          </li>
-          <li class="nav-item">
-            <a href="#code-example" class="nav-link">Code</a>
-          </li>
-          <li class="nav-item">
-            <a href="#projects" class="nav-link">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contact" class="nav-link">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a href="#education" class="nav-link">Education</a>
-          </li>
-          <li class="nav-item">
-            <a href="#languages" class="nav-link">Languages</a>
-          </li>
-
+    <header class="header">
+      <div class="burger-menu">
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+      </div>
+      <nav>
+        <button class="close-btn hide"></button>
+        <ul class="navigation">
+          <li><a href="#" class="navigation-link">About</a></li>
+          <li><a href="#" class="navigation-link">Contact</a></li>
+          <li><a href="#" class="navigation-link">Skills</a></li>
+          <li><a href="#" class="navigation-link">Languages</a></li>
+          <li><a href="#" class="navigation-link">Projects</a></li>
+          <li><a href="#" class="navigation-link">Education</a></li>
+          <li><a href="#" class="navigation-link">Courses</a></li>
+          <li><a href="#" class="navigation-link">Code</a></li>
         </ul>
       </nav>
     </header>
+    <main class="main">
+      <div class="container">
+        <section id="contact">
+          <div class="contact-wrap">
+            <div class="contact-left">
+              <div class="about-info-img">
+                <img class="avatar-image" src="./assets/img/photoCV2.png" alt="Gavrosh Cyril Photo">
+              </div>
+              <div class="header-about">
+                <h3 class="header-title">About</h3>
+                <p class="header-description">
+                  I like front-end development and try not to stand still and develop by learning new technologies, even though it can be difficult at times!
+                </p>
+              </div>
+            </div>
+            <div class="contact-right">
+            <h1 class="contact-title">Cyril</h1>
+            <h2 class="contact-subtitle">Gavrosh</h2>
+            <h5 class="contact-specialize">Junior front-end developer</h5>
+            <nav class="contact-nav">
+              <ul>
+                <li class="nav-item">
+                  <h5 class="nav-title">Phone</h5>
+                  <a href="tel:+375333621891" class="nav-link"
+                    >+375 33 362 18 91</a>
+                </li>
+                <li class="nav-item">
+                  <h5 class="nav-title">E-mail</h5>
+                  <span class="nav-link">gavrosh.cyril@gmail.com</span>
+                </li>
+                <li class="nav-item">
+                  <h5 class="nav-title">GitHub</h5>
+                  <a href="https://github.com/GavroshCyril" class="nav-link"
+                    >@GavroshCyril</a>
+                </li>
+                <li class="nav-item">
+                  <h5 class="nav-title">Linkedln</h5>
+                  <a href="https://www.linkedin.com/in/cyril-gavrosh-184a48218/" class="nav-link"
+                    >Cyril Gavrosh</a>
+                </li>
+                <li class="nav-item">
+                  <h5 class="nav-title">Address</h5>
+                  <span class="nav-link"
+                    >Minsk, Belarus</span>
+                </li>
+                
+              </ul>
+            </nav>
+          </div>
 
-  <main class="container">  
-    <div class="left-side">
-      <figure class="figure__left-side">
-        <img src="/assets/img/photoCV2.png" width="300" height="300" class="photo" alt="Photo of Gavrosh Cyril">
-      </figure>
-
-      <section class="contact" id="contact">
-        <h2 class="section-title">Contact</h2>
-        <ul class="contact__list">
-          <li class="contact__item">
-            Phone:<a href="tel:+375333621891">+375 (33) 362-18-91</a>
-          </li>
-          <li class="contact__item">
-            Email:<a href="mailto:gavrosh.cyril@gmail.com">gavrosh.cyril@gmail.com</a>
-          </li>
-          <li class="contact__item">
-            Address:<br>
-            <span>Minsk, Belarus</span>
-          </li>
-        </ul>
-      </section>
-
-      <section class="education" id="education">
-        <h2 class="section-title">Education</h2>
-        <ul class="education__list">
-          <li class="education__item">
-            2019-2023 <br> <br>Oshmyany Agricultural and Economic College (OAEC)<br> <br>
-            Information technology software (Technician-programmer)
-          </li>
-        </ul>
-      </section>
-    
-
-    <section class="languages" id="languages">
-      <h2 class="section-title">Languages</h2>
-      <ul class="languages__list">
-        <li class="languages__item">
-          Belorussian – native speaker
-        </li>
-        <li class="languages__item">
-          Russian – C1
-        </li>
-        <li class="languages__item">
-          English – A2
-        </li>
-      </ul>
-    </section>
-    </div>
-
-
-    <div class="right-side">
-      <section class="page-title">
-        <h1 class="main-title">Cyril<br>Gavrosh </h1>
-        <p>Junior front-end developer</p>
-      </section>
-    
-    <section class="about-me" id="about-me">
-      <h2 class="section-title">About me</h2>
-      <p class="section-description">
-        Hi, my name is Cyril! I enjoy learning more and more new information related to web development while sitting at my computer and having a cup of coffee. My strengths are problem solving and fast learning.<br> <br>
-        I am interested in web development because this occupation provides endless opportunities for professional growth,
-        in addition, there is a huge number of free and high-quality resources for self-education and a large community of developers.  <br> <br>
-
-        I want to gain knowledge and skills that are enough to work in the company.
-      </p>
-    </section> 
-
-    <section class="skills" id="skills">
-      <h2 class="section-title">Skills</h2>
-      <ul class="skills__list">
-        <li class="skills__item skills__html">HTML</li>
-        <li class="skills__item skills__css">CSS</li>
-        <li class="skills__item skills__javascript">JavaScript</li>
-        <li class="skills__item skills__bootstrap">Bootstrap</li>
-        <li class="skills__item skills__sass">SASS</li>
-        <li class="skills__item skills__figma">Figma</li>
-        <li class="skills__item skills__github">GitHub</li>
-        <li class="skills__item skills__git">Git</li>
-        <li class="skills__item skills__vscode">VS Code</li>
-    </ul>
-    </section>
-
-    <section class="key-strengths" id="strengths">
-      <h2 class="section-title">Strengths:</h2>
-      <ul class="key-strengths__list">
-        <li class="key-strengths__item">Hardworking</li>
-        <li class="key-strengths__item">Responsible</li>
-        <li class="key-strengths__item">Quick learner</li>
-        <li class="key-strengths__item">Team playing</li>
-        <li class="key-strengths__item">Full immersion in the essence of the problems</li>
-        <li class="key-strengths__item">Conscientious</li>
-      </ul>
-    </section>
-
-     <section class="code-example" id="code-example">
-      <h2 class="section-title">Code example</h2>
-
-      <pre>
-        <code class="code">const anchors = document.querySelectorAll('a.nav-link')
-
-          for (let anchor of anchors) {
-            anchor.addEventListener('click', function (e) {
-              e.preventDefault()
-              
-              const blockID = anchor.getAttribute('href')
-              
-              document.querySelector(blockID).scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-              })
-            })
-          }</code>
-        </pre>
-
-    </section> 
-
-    <section class="projects" id="projects">
-      <h2 class="section-title">My projects</h2>
-      <ul class="projects__list">
-        <li class="projects__item">
-          <a href="https://gavroshcyril.github.io/MyCompany/" target="_blank">
-            <img src="assets/img/my_company.png" width="1816" height="957" alt="MyCompany screenshot" class="projects__image">
-            <h3 class="projects__title">MyCompany</h3>
-          </a>
-        </li>
-        <li class="projects__item">
-          <a href="https://gavroshcyril.github.io/Crappo-main/" target="_blank">
-            <img src="assets/img/crappo.png" width="1816" height="957" alt="Crappo-main screenshot" class="projects__image">
-            <h3 class="projects__title">Crappo</h3>
-          </a>
-        </li>
-      </ul>
-    </section>
-  </div>
-  </main>
-
-  <footer class="footer">
-    <a class="footer__github" href="https://github.com/GavroshCyril" target="_blank">
-      Me on GitHub
-    </a>
-    <p class="footer__year">© 2022</p>
-    <a class="footer__rsschool" href="https://rs.school/js-stage0/" target="_blank">
-      <img src="assets/svg/rs_school.svg" width="86" height="32" alt="RS School">
-    </a>
-  </footer>
+            
+          </div>
+        </section>
+      </div>
+    </main>
 
     <script src="index.js"></script>
   </body>
