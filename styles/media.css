@@ -1,0 +1,22 @@
+@media (max-width: 1030px) { 
+    .contact-wrap{
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+    }
+ }
+
+ @media (max-width: 962px) { 
+    .navigation{
+        display: none;
+    }
+
+    .burger-menu{
+        display: block;
+    }
+    .contact-wrap{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+  }
