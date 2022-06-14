@@ -1,0 +1,31 @@
+.education{
+    margin-bottom: 50px;
+}
+
+.education-wrap{
+    width: 400px;
+}
+
+.education-info{
+    color: #1f313d;
+    margin-top: 40px;
+}
+
+.education-year {
+    font-size: 20px;
+    display: block;
+    font-weight: 800;
+  }
+
+  .education-name {
+    display: block;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .education-specializate {
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+  }
