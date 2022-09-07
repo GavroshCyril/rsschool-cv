@@ -24,7 +24,7 @@ header{
 }
 
 .navigation-link::after {
-    background-color: #FFF; 
+    background-color: #FFF;
     display: block;
     content: "";
     height: 2px;
@@ -40,7 +40,6 @@ header{
 }
 
   .contact-wrap{
-  
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -123,7 +122,6 @@ header{
     font-size: 16px;
     font-weight: 800;
   }
-  
   .nav-item{
     margin-bottom: 15px;
     z-index: -1;

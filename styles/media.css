@@ -1,4 +1,4 @@
-@media (max-width: 1030px) { 
+@media (max-width: 1030px) {
     .contact-wrap{
         display: flex;
         justify-content: space-around;
@@ -6,7 +6,7 @@
     }
  }
 
- @media (max-width: 962px) { 
+ @media (max-width: 962px) {
     .navigation{
         display: none;
     }
